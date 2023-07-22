@@ -88,7 +88,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-DONATION_LINK = "https://t.me/I_AM_PRO_KING"
+DONATION_LINK = "https://t.me/NUMBER03ANURAG"
 
 start_txt = """
 ʜᴇʏ🥀 `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ!!
@@ -433,7 +433,7 @@ def KRISTY_about_callback(update, context):
             "\n» ɪ ʜᴀᴠᴇ ɴꜱᴡꜰ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛꜱ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ᴛʜᴇ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ᴘᴏʀɴᴏɢʀᴀᴘʜɪᴄ ᴄᴏɴᴛᴇɴᴛꜱ."
             "\n» ɪ ᴄᴀɴ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴘᴀᴍꜱ ᴀɴᴅ ʀᴀɪᴅꜱ."
             "\n» ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ᴛᴏᴏʟꜱ ꜰᴏʀ ꜰᴜɴ ᴀɴᴅ ᴇɴᴊᴏʏᴍᴇɴᴛ ᴛᴏ ᴇɴᴛᴇʀᴛᴀɪɴ ʏᴏᴜ ᴀʟʟ"
-            "\n» ɪ ᴀᴍ ᴘᴜʙʟɪꜱʜᴇᴅ ᴜɴᴅᴇʀ ʟɪᴄᴇɴꜱᴇ :- [ɢɴᴜ ʟɪᴄᴇɴꜱᴇ](https://github.com/ALTRON-XD/KRISTY/blob/main/LICENSE)"
+            "\n» ɪ ᴀᴍ ᴘᴜʙʟɪꜱʜᴇᴅ ᴜɴᴅᴇʀ ʟɪᴄᴇɴꜱᴇ :- [ɢɴᴜ ʟɪᴄᴇɴꜱᴇ](https://github.com)"
             "\n\n 𝗧𝗛𝗔𝗡𝗞𝗦 𝗙𝗢𝗥 𝗦𝗨𝗣𝗣𝗢𝗥𝗧𝗜𝗡𝗚 𝗨𝗦",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -441,10 +441,10 @@ def KRISTY_about_callback(update, context):
                 [
                  [
         InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/i_am_pro_king"),
+        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/NUMB03ANURAG"),
                  ],
                  [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ", url=f"https://github.com/ALTRON-XD/KRISTY"),
+        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ", url=f"https://github.com"),
                  ],
                  [
                     InlineKeyboardButton(text="◁", callback_data="KRISTY_back"),
@@ -789,7 +789,7 @@ def main():
 » **ꜱQʟᴀʟᴄʜᴇᴍʏ :** `1.4.31`
 ━━━━━━━━━━━━━
 
-⍟ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [𝙆𝙍𝙄𝙎𝙏𝙔](https://t.me/TEAMXTRON)
+⍟ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [ANURAG](https://t.me/NUMBER03ANURAG)
 
 """,
                 parse_mode=ParseMode.MARKDOWN,
@@ -861,7 +861,7 @@ def main():
 
 if __name__ == "__main__":
     LOGGER.info(
-        f"BOT STARTED SUCCESSFULLY IF YOU FACE ANY ISSUE THEN JOIN @TEAMXTRON : {str(ALL_MODULES)}"
+        f"BOT STARTED SUCCESSFULLY IF YOU FACE ANY ISSUE THEN JOIN @NUMBER03ANURAG : {str(ALL_MODULES)}"
     )
     telethn.start(bot_token=TOKEN)
     pbot.start()
